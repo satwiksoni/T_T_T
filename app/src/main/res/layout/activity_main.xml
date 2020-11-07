@@ -9,6 +9,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/tv"
         android:layout_marginTop="10dp"
         android:textColor="@android:color/black"
         android:textSize="24sp"
@@ -27,8 +28,8 @@
         <Button
             android:id="@+id/bv1"
             android:textSize="100sp"
-            android:background="@android:color/black"
-            android:textColor="#e68019"
+
+            android:textColor="#000000"
             tools:text="X"
             android:layout_margin="1dp"
             android:fontFamily="monospace"
@@ -40,8 +41,8 @@
             android:id="@+id/bv2"
             android:layout_margin="1dp"
             android:textSize="100sp"
-            android:background="@android:color/black"
-            android:textColor="#e68019"
+
+            android:textColor="#000000"
             tools:text="X"
             android:fontFamily="monospace"
             android:textStyle="bold"
@@ -52,8 +53,8 @@
             android:id="@+id/bv3"
             android:textSize="100sp"
             android:layout_margin="1dp"
-            android:background="@android:color/black"
-            android:textColor="#e68019"
+
+            android:textColor="#000000"
             tools:text="X"
             android:fontFamily="monospace"
             android:textStyle="bold"
@@ -71,8 +72,8 @@
         <Button
             android:id="@+id/bv4"
             android:textSize="100sp"
-            android:background="@android:color/black"
-            android:textColor="#e68019"
+
+            android:textColor="#000000"
             tools:text="X"
             android:layout_margin="1dp"
             android:fontFamily="monospace"
@@ -83,8 +84,8 @@
         <Button
             android:id="@+id/bv5"
             android:textSize="100sp"
-            android:background="@android:color/black"
-            android:textColor="#e68019"
+
+            android:textColor="#000000"
             tools:text="X"
             android:layout_margin="1dp"
             android:fontFamily="monospace"
@@ -95,8 +96,8 @@
         <Button
             android:id="@+id/bv6"
             android:textSize="100sp"
-            android:background="@android:color/black"
-            android:textColor="#e68019"
+
+            android:textColor="#000000"
             tools:text="X"
             android:layout_margin="1dp"
             android:fontFamily="monospace"
@@ -116,8 +117,8 @@
             android:id="@+id/bv7"
             android:textSize="100sp"
             android:layout_margin="1dp"
-            android:background="@android:color/black"
-            android:textColor="#e68019"
+
+            android:textColor="#000000"
             tools:text="X"
             android:fontFamily="monospace"
             android:textStyle="bold"
@@ -128,8 +129,8 @@
             android:id="@+id/bv8"
             android:textSize="100sp"
             android:layout_margin="1dp"
-            android:background="@android:color/black"
-            android:textColor="#e68019"
+
+            android:textColor="#000000"
             tools:text="X"
             android:fontFamily="monospace"
             android:textStyle="bold"
@@ -140,8 +141,8 @@
             android:id="@+id/bv9"
             android:textSize="100sp"
             android:layout_margin="1dp"
-            android:background="@android:color/black"
-            android:textColor="#e68019"
+
+            android:textColor="#000000"
             tools:text="X"
             android:fontFamily="monospace"
             android:textStyle="bold"
@@ -151,6 +152,7 @@
 
     </LinearLayout>
     <Button
+        android:id="@+id/reset"
         android:layout_width="wrap_content"
         android:shadowColor="#000000"
         android:layout_marginLeft="150dp"
@@ -158,9 +160,9 @@
         android:shadowDy="@android:integer/config_longAnimTime"
         android:layout_height="wrap_content"
         android:text="Reset"
-        android:background="#e68019"
+        android:background="#000000"
         android:textStyle="bold"
-        android:textColor="#000000"/>
+        android:textColor="#e68019"/>
 
 
 </LinearLayout>
